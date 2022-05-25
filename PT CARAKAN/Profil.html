@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Profil</title>
+        <link rel="stylesheet" href="Style.css">
+    </head>
+    <body class="body">
+        <div>
+            <img src="image/Foto Profil.png" class="FotoProfil" onclick="menuToggle();"/>
+            <a href="After Login.html"><img src="image/Frame.png" class="frame"/></a>
+        </div>
+        <p class="profilheader">Profile</p>
+        <div class="bgprofil">
+            <img src="image/Email.png" class="emailimage">
+            <img src="image/Gender.png" class="genderimage">
+            <img src="image/Telpon.png" class="telponimage">
+            <img src="image/Map.png" class="mapimage">
+        </div>
+        <div class="action">
+            <div class="menu">
+                <ul>
+                    <li><img src="image/Profile.PNG"><a href="Profil.html">Profile</a></li>
+                    <li><span class="line"></span></li>
+                    <li><img src="image/Log Out.PNG"><a href="Landing Page.html">Log Out</a></li>
+                </ul>
+            </div>
+        </div>
+        <script>
+            function menuToggle(){
+                const toggleMenu = document.querySelector('.menu');
+                toggleMenu.classList.toggle('active')
+            }
+        </script>
+        <div>
+            <p class="emailaddress">egigans@gmail.com</p>
+            <p class="emailtext">Email</p>
+            <p class="gender">Male</p>
+            <p class="gendertext">Gender</p>
+            <p class="phonenumber">0812-8623-8911</p>
+            <p class="phonetext">Mobile phone</p>
+            <p class="address">Perumahan Permata Bintaro Residence C-3</p>
+            <p class="addresstext">Address</p>
+        </div>
+        <a href="Detail Book.html"><div class="click2"></div></a>
+        <div>
+            <p class="tekseditprofile">Edit Profile</p>
+            <img src="image/Profil Image.png" class="profilimage">
+            <div class="bgeditprofil"></div>
+        </div>
+        <div>
+            <p class="mybooktext">My Books</p>
+            <img src="image/Book 4.jpg" class="collectionbookimage1">
+            <p class="collectionbooktitle1">My Own Private Mr. Cool</p>
+            <p class="collectionbookby1">By. Indah Hanaco</p>
+            <div class="downloadbackground1"></div>
+            <p class="downloadtext1">Download</p>
+            <img src="image/Book 1.jpg" class="collectionbookimage2">
+            <p class="collectionbooktitle2">Sebuah Seni untuk bersikap Bodo A...</p>
+            <p class="collectionbookby2">By. Mark Manson</p>
+            <div class="downloadbackground2"></div>
+            <p class="downloadtext2">Download</p>
+        </div>
+    </body>
+</html>
